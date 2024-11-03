@@ -2,6 +2,8 @@
 
 This is a Spring Boot project for handling a homework assignment. It uses Java 19, Maven for build management, and includes various dependencies such as Spring Data JPA, H2Db and Flyway for database migrations.
 
+[Useful Information](#useful-information)
+
 ## Prerequisites
 
 - Java 19
@@ -29,7 +31,8 @@ Database configuration is located in src/main/resources/application.properties o
 
 The H2 Database is an in-memory database, meaning that data is erased and re-initialized each time the project is rebuilt.
 You can view the contents of the database using the H2 Console, which is accessible by navigating to http://localhost:8080/h2-console.  
-Keep in mind :8080 is the default port, but feel free to replace that with your own running port number.
+
+**Keep in mind :8080 is the default port, but feel free to replace that with your own running port number.**
 
 ### 3. Build and Run the application
 Use Maven to properly build and run the application in the root folder:
@@ -49,6 +52,7 @@ Flyway is configured to drop all tables/objects from database on app start-up an
 
 Test users are: **Helmes** & **TestUser**. No password validation is necessary within this project. 
 Account based actions are stored in front-end using localstorage and cleared during pressing the "Log out" button.
+
 ## Project Structure
 **src/main/java:** Contains the main application code.  
 **src/main/resources:** Contains the application.properties file, Fly-way migration files and other resource files.  
