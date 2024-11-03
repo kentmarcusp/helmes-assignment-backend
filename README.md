@@ -50,6 +50,7 @@ mvn test
 
 ## Useful Information!
 Flyway is configured to drop all tables/objects from database on app start-up and will execute necessary Create/Insert queries with stock data mock-ups.
+[Database structure](https://tinyurl.com/yc5njukw) & queries regarding table creation + insert can be found in **src/main/resources/application.properties** file.
 
 Test users are: **Helmes** & **TestUser**. No password validation is necessary within this project. 
 Account based actions are stored in front-end using localstorage and cleared during pressing the "Log out" button.
