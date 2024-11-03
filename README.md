@@ -15,7 +15,8 @@ This is a Spring Boot project for handling a homework assignment. It uses Java 1
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/kentmarcusp/helmes-assingment.git
+git clone https://github.com/kentmarcusp/helmes-assignment-backend.git
+
 cd homework
 ```
 Ensure Java is installed
